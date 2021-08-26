@@ -12,29 +12,46 @@
 </head>
 <body>
   <div class="container-fluid">
-      <div>
-          <nav>
-              <div class="logo1 mt-5">
-                  <img class="mt-4 ml-4" src="./images/logo.svg" alt="Fylo Logo">
-              </div>
-
-              <div class="float-right mr-5">
-                  <ul class="mt-5">
-                      <li class="link1 pr-4">
-                          <a class="text-white" href="#">Features</a>
-                      </li>
-                      <li class="link2 pr-4">
-                        <a class="text-white" href="#">Team</a>
+      <div class="header-big">
+            <div class="float-left mt-5 ml-3">
+                <img class="w-75 h-75" src="./images/logo.svg" alt="Fylo Logo">
+            </div>
+            <div class="float-right">
+                <ul class="mt-5">
+                    <li class="link1 pr-3">
+                        <a class="text-white" href="#">Features</a>
                     </li>
-                    <li class="link3 pr-4">
-                        <a class="text-white" href="#">Sign in</a>
-                    </li>
-                  </ul>
-              </div>
-          </nav>
-      </div>
+                    <li class="link2 pr-2">
+                      <a class="text-white" href="#">Team</a>
+                  </li>
+                  <li class="link3">
+                      <a class="text-white" href="#">Sign in</a>
+                  </li>
+                </ul>
+            </div>
+    </div>
+<!-- beginning of small header below 400px width -->
+    <div class="header-small">
+        <div class="text-center pt-4">
+            <img class="w-25 h-25" src="./images/logo.svg" alt="Fylo Logo">
+        </div>
+        <div class="text-center">
+            <ul class="mt-5">
+                <li class="link1 pr-3">
+                    <a class="text-white" href="#">Features</a>
+                </li>
+                <li class="link2 pr-2">
+                  <a class="text-white" href="#">Team</a>
+              </li>
+              <li class="link3">
+                  <a class="text-white" href="#">Sign in</a>
+              </li>
+            </ul>
+        </div>
+</div>
+<!-- end of small header 400px width -->
 
-      <div class="text-center m-auto p-5">
+      <div class="text-center m-auto p-2 mb-5">
           <div >
               <img class="w-75 h-75 mt-5" src="./images/illustration-intro.png" alt="illustration image">
           </div>
@@ -50,7 +67,7 @@
       </div>
 
       <div class="row mt-5 mb-5 four-col">
-          <div class="col-4 two-rows">
+          <div class="col-lg-4 col-md-4 col-sm-12 pr-sm-5 pl-sm-5 two-rows">
               
               <div class="text-center">
                 <div>
@@ -73,7 +90,7 @@
            </div>
           </div>
             
-          <div class="col-4 two-rows">
+          <div class="col-lg-4 col-md-4 col-sm-12 pr-sm-5 pl-sm-5 two-rows">
               
             <div class="text-center">
                 <div>
@@ -97,13 +114,14 @@
           
           </div>
       </div>
-
-      <div class="row mt-5 mb-5 illustration">
-          <div class="col-6 m-auto">
-              <img class="w-100 h-100 " src="./images/illustration-stay-productive.png" alt="stay productive">
+<br>
+<br>
+      <div class="row mt-5 illustration">
+          <div class="col-lg-6 col-sm-12 col-md-6 text-center">
+              <img class="w-75 h-75 " src="./images/illustration-stay-productive.png" alt="stay productive">
           </div>
-          <div class="col-6 text-left m-auto">
-              <h3>Stay productive,<br> wherever you are </h3>
+          <div class="col-lg-6 col-sm-12 col-md-6 pl-sm-5 ">
+              <h3>Stay productive, wherever you are </h3>
               <p>Never let location be an issue when accessing your files. Fylo has you <br> covered for all of your file storage needs. <br> <br> Securely share files and folders with friends, family and colleagues for live <br> collaboration. No email attachments required.</p>
               <a href="#">See how Fyro works <img src="./images/icon-arrow.svg" alt=""></a> 
           </div>
@@ -114,8 +132,8 @@
           <div class="col1">
               <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
               <div class="row">
-                  <div class="col-1"><img class="founder-img" src="./images/profile-1.jpg" alt=""></div>
-                  <div class="col-11">
+                  <div class="col-lg-3 col-sm-12"><img class="founder-img" src="./images/profile-1.jpg" alt=""></div>
+                  <div class="col-lg-9 col-sm-12">
                       <h5>Satish Patel</h5>
                       <p>Founder & CEO, Huddle</p>
                   </div>
@@ -124,8 +142,8 @@
           <div class="col2">
               <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
               <div class="row">
-                <div class="col-1 "><img class="founder-img" src="./images/profile-2.jpg" alt=""></div>
-                <div class="col-11">
+                <div class="col-lg-3 col-sm-12"><img class="founder-img" src="./images/profile-2.jpg" alt=""></div>
+                <div class="col-lg-9 col-sm-12">
                     <h5>Bruce McKenzie</h5>
                     <p>Founder & CEO, Huddle</p>
                 </div>
@@ -134,8 +152,8 @@
           <div class="col3">
               <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
               <div class="row">
-                <div class="col-1 "><img  class="founder-img" src="./images/profile-3.jpg" alt=""></div>
-                <div class="col-11">
+                <div class="col-lg-3 col-sm-12"><img  class="founder-img" src="./images/profile-3.jpg" alt=""></div>
+                <div class="col-lg-9 col-sm-12">
                     <h5>Iva Boyd</h5>
                     <p>Founder & CEO, Huddle</p>
                 </div>
@@ -151,7 +169,7 @@
 
           <div>
               <form>
-                  <input type="email" placeholder="Enter your email">
+                  <input type="email" class="text-center" placeholder="Enter your email">
                   <button>Get started for free</button>
               </form>
           </div>
